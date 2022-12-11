@@ -362,7 +362,7 @@ export default function Example() {
                       className="inline-flex items-center rounded-full bg-black p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
                     >
                       <span className="rounded-full bg-gradient-to-r from-teal-500 to-cyan-600 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
-                        We're hiring
+                        We&apos;re hiring
                       </span>
                       <span className="ml-4 text-sm">
                         Visit our careers page
