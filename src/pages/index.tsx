@@ -1,28 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  const colors = require('tailwindcss/colors')
-  
-  module.exports = {
-    // ...
-    theme: {
-      extend: {
-        colors: {
-          teal: colors.teal,
-          cyan: colors.cyan,
-        },
-      },
-    },
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
@@ -373,9 +348,9 @@ export default function Example() {
                       />
                     </a>
                     <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                      <span className="block">The way teams</span>
+                      <span className="block">Increase visibility and</span>
                       <span className="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">
-                        work better, together
+                        velocity across your team
                       </span>
                     </h1>
                     <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
